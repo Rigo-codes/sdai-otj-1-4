@@ -1,0 +1,40 @@
+/* Basic reset */
+body, ul {
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+/* Navbar container */
+.navbar {
+    background-color: hsl(273, 60%, 70%); /* Dark background color */
+    padding: 10px 0;
+    width: auto;
+}
+
+/* Align the list items horizontally */
+.navbar ul {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+}
+
+/* Style each list item */
+.navbar li {
+    margin: 0 15px;
+}
+
+/* Style the links */
+.navbar a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increase font size */
+    padding: 8px 16px;
+    display: block;
+    border-radius: 4px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: hwb(273 30% 37%); /* Slightly lighter background on hover */
+}
