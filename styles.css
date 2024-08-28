@@ -96,3 +96,16 @@ p {
     margin: 14px 0;
     padding: 0;
 }
+.dev-favorites-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap to the next line on smaller screens */
+    gap: 15px; /* Adds space between the images */
+    justify-content: center; /* Centers the images horizontally */
+  }
+  .dev-favorites-gallery img {
+    width: 100%;
+    max-width: 300px; /* Restricts image width to a maximum of 300px */
+    height: auto;
+    flex: 1 1 calc(33.333% - 30px); /* Allows 3 images per row on large screens */
+    box-sizing: border-box; /* Ensures padding and border are included in the width/height */
+  }
