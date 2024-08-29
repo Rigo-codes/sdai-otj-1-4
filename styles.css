@@ -109,3 +109,13 @@ p {
     flex: 1 1 calc(33.333% - 30px); /* Allows 3 images per row on large screens */
     box-sizing: border-box; /* Ensures padding and border are included in the width/height */
   }
+
+
+  .footer-socialmedia {
+    display:flex;
+  }
+
+  .footer-socialmedia img {
+    max-width:50px; /* Restricts image width to a maximum of 300px */
+    height: auto;
+  }
