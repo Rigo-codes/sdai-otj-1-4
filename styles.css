@@ -8,7 +8,8 @@ body, ul {
 
 /* Navbar container */
 .navbar {
-   ;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
     background-color: hsl(273, 60%, 70%); 
     padding: 10px 0;
     width: auto;
@@ -133,3 +134,10 @@ p {
     justify-content: center;
     justify-content: space-evenly;
   }
+
+  .devFavorites {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+  }
+
+  
