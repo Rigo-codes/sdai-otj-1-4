@@ -106,7 +106,7 @@ p {
     display: flex;
     flex-wrap: wrap; /* Allows images to wrap to the next line on smaller screens */
    justify-content: space-evenly;
-   /* Centers the images horizontally */
+   justify-content: center;/* Centers the images horizontally */
   }
   .dev-favorites-gallery img {
     width: 100%;
@@ -124,7 +124,7 @@ p {
   }
 
   .footer-socialmedia img {
-    max-width:50px; /* Restricts image width to a maximum of 300px */
+    max-width: 50px; /* Restricts image width to a maximum of 300px */
     height: auto;
   }
 
@@ -135,9 +135,16 @@ p {
     justify-content: space-evenly;
   }
 
-  .devFavorites {
-    display: flex;
-    justify-content: center; /* Center the items horizontally */
-  }
+  .header-image {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 2s ease-in-out; /* Transition for smooth fading */
+}
+
+.menu {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 2s ease-in-out; /* Transition for smooth fading */
+}
+
 
   
+
