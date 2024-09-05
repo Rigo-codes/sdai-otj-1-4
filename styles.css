@@ -111,7 +111,7 @@ p {
     width: 100%;
     max-width: 300px; /* Restricts image width to a maximum of 300px */
     height: auto;
-    
+    margin: 2em;
     box-sizing: border-box; /* Ensures padding and border are included in the width/height */
   }
 
